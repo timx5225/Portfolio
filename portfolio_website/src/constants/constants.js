@@ -3,7 +3,7 @@ export const projects = [
     title: "Pong Game in Python",
     description:
       "Using Pygame, a Python module that used to creat mostly 2D games with customized windows and settings. This app has its own unique physics collision engine and allow one player againsting AI to two players againsting each other.",
-    image: "docs/assets/images/1.png",
+    image: "docs/assets/images/1.PNG",
     tags: ["Python", "Pygame"],
     source: "https://google.com",
     visit: "https://github.com/timx5225/Pong-game-in-Python",
@@ -13,7 +13,7 @@ export const projects = [
     title: "Pong Game AI",
     description:
       "Advanced application for previous project, I used NEAT (NeuroEvolution of Augmenting Topologies), which is an evolutionary algorithm that creates artificial neural networks, to train Pong AI. Its fitness and capability became better after every training checkpoint.",
-    image: "docs/assets/images/2.avif",
+    image: "docs/assets/images/2.AVIF",
     tags: ["Python", "Pygame", "NEAT"],
     source: "https://google.com",
     visit: "https://github.com/timx5225/Pong-game-AI",
@@ -23,9 +23,9 @@ export const projects = [
     title: "My Protfolio",
     description:
       "This is my protfolio website to introduce my experience and projects in programming using front-end languages.",
-    image: "docs/assets/images/3.jpeg",
+    image: "docs/assets/images/3.JPEG",
     tags: ["HTML", "CSS", "JavaScript", "React"],
-    source: "https://google.com",
+    source: "https://timx5225.github.io/Portfolio/",
     visit: "https://google.com",
     id: 2,
   },
