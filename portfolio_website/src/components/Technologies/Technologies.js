@@ -25,7 +25,8 @@ const Technologies = () => (
     <SectionText>
       I learned Python as my first programming language. After practicing to
       make a few projects using frameworks like Django, Pygame, I started to
-      learn front-end languages like HTML, CSS, JavaScript.
+      learn front-end languages like HTML, CSS, JavaScript, and I used styled
+      components in ReactJS and ES6 to build this website.
     </SectionText>
     <List>
       <ListItem>
@@ -33,7 +34,7 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>Front-end</ListTitle>
           <ListParagraph>
-            Experience with <br />
+            Experienced with <br />
             HTML, CSS, JavaScript, React.js
           </ListParagraph>
         </ListContainer>
@@ -43,7 +44,7 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>Back-end</ListTitle>
           <ListParagraph>
-            Experience with <br />
+            Experienced with <br />
             Python Flask, Django, MySQL, <br />
             AWS S3
           </ListParagraph>
@@ -54,7 +55,7 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>UI/UX</ListTitle>
           <ListParagraph>
-            Experience with <br />
+            Experienced with <br />
             tools like Wix, Wordpress, App Inventor2 (AI2)
           </ListParagraph>
         </ListContainer>

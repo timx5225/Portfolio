@@ -69,7 +69,11 @@ const Timeline = () => {
       <SectionText>
         My name is Tim Lin. I am currently 23 years old. I started to have
         interest in programming when my brother who is a software engineer in
-        Amazon introduces what coding is to me.
+        Amazon introduces it to me. I graduated from 'Big Data Smart Marketing
+        Practical Class' and 'Responsive Website Design Application and UI/UX'
+        courses held by National Taiwan University of Science and complete
+        several projects using Python and JavaScript. I am looking for any
+        opportunities to enhence my programming and developing skills!
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>

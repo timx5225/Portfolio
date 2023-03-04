@@ -1,6 +1,6 @@
 import Link from "next/link";
 import React from "react";
-import { AiFillFacebook, AiFillGithub, AiFillInstagram } from "react-icons/ai";
+import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import { DiCssdeck } from "react-icons/di";
 
 import {
@@ -17,7 +17,7 @@ const Header = () => (
   <Container>
     <Div1>
       <Link href="/" legacyBehavior>
-        <a
+        <p
           style={{
             display: "flex",
             alignItems: "center",
@@ -25,23 +25,23 @@ const Header = () => (
             marginBottom: 20,
           }}
         >
-          <DiCssdeck size="3rem" /> <Span>Protfolio</Span>
-        </a>
+          <Span>Tim's Protfolio</Span>
+        </p>
       </Link>
     </Div1>
     <Div2>
       <li>
-        <Link href="#projects">
+        <Link href="https://timx5225.github.io/Portfolio/#projects">
           <NavLink>Projects</NavLink>
         </Link>
       </li>
       <li>
-        <Link href="#tech">
+        <Link href="https://timx5225.github.io/Portfolio/#tech">
           <NavLink>Technology</NavLink>
         </Link>
       </li>
       <li>
-        <Link href="#about">
+        <Link href="https://timx5225.github.io/Portfolio/#about">
           <NavLink>About</NavLink>
         </Link>
       </li>
@@ -50,11 +50,11 @@ const Header = () => (
       <SocialIcons href="https://github.com/timx5225" title="Github">
         <AiFillGithub size="3rem" />
       </SocialIcons>
-      <SocialIcons href="https://facebook.com/tim.lin.1426/" title="Facebook">
-        <AiFillFacebook size="3rem" />
-      </SocialIcons>
-      <SocialIcons href="https://instagram.com/timlin000" title="Instagram">
-        <AiFillInstagram size="3rem" />
+      <SocialIcons
+        href="https://www.linkedin.com/in/tim-lin-8b1797268/"
+        title="Linkedin"
+      >
+        <AiFillLinkedin size="3rem" />
       </SocialIcons>
     </Div3>
   </Container>

@@ -3,6 +3,7 @@ import React from "react";
 import {
   Section,
   SectionDivider,
+  SectionText,
   SectionTitle,
 } from "../../styles/GlobalComponents";
 import { Box, Boxes, BoxNum, BoxText } from "./AcomplishmentsStyles";
@@ -25,6 +26,15 @@ const Acomplishments = () => (
         </Box>
       ))}
     </Boxes>
+    <SectionText>
+      Certifications:
+      <br />
+      Google Analytics,
+      <br />
+      Google Ads,
+      <br />
+      Microsoft MTA: Introduction to Programming Using Python
+    </SectionText>
   </Section>
 );
 
